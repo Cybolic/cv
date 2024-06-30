@@ -1,0 +1,435 @@
+basics:
+  name: Christian Dannie Storgaard
+  label: Full-stack Developer / Technical Team Lead
+  summary: >-
+    Developing websites since 1995, I’ve used JavaScript since its inception and have worked on front-end, back-end, desktop, mobile, and the DevOps side of things.
+    I tend to find improvements to the experience of both users and developers and ways of optimising processes within the code and my work environment. I’m passionate about open communication and cooperating as a team.
+  personalSummary: >-
+    I’m originally from **Copenhagen, Denmark**, but I’m currently in **Greece**. Here, my **dockerised NAS** is slowly taking over my other computers, and I wish I had more **Raspberry PIs**.
+    When I’m not in front of my main computer, I feed my growing **film collection** (don’t get me started on trivia), fiddle with my good ol’ **Commodore Amiga** (also don’t get me started on trivia), make a bit of **music**, or plan **costumes** for the next Halloween.
+  email: cds@cybolic.me
+  url: https://cybolic.me
+  location:
+    address: Athens, Greece
+  profiles:
+    - network: LinkedIn
+      username: cybolic
+      url: https://www.linkedin.com/in/cybolic/
+    - network: GitHub
+      username: Cybolic
+      url: https://github.com/Cybolic
+    - network: sourcehut
+      username: cybolic
+      url: https://sr.ht/~cybolic
+    - network: GitLab
+      username: cybolic
+      url: https://gitlab.com/cybolic
+    - network: Bitbucket
+      username: Cybolic
+      url: https://bitbucket.org/Cybolic/
+
+work:
+  - position: Senior Software Engineer
+    name: Enginable
+    url: https://enginable.com
+    startDate: 2023-04-10
+    endDate: 2024-06-21
+    location: remote
+    country: USA
+    text: >-
+      Design and implementation of modular front-end interfaces, UI components as well as their infrastructure and backend implementation, with a focus on dynamic use, generation and interoperability.
+    summary: >-
+      Being in charge of all front-end development, I designed and implemented modular interfaces, UI components as well as their backend implementations, with a focus on dynamic use, generation and interoperability.
+    highlights:
+      - Implemented an extendable and customisable dialogue flow system for non-developers
+      - Re-implemented a  multi-year, 250k+ line project in modern patterns and languages in 3 weeks
+      - Created a prototyping platform for creating and deploying demoable multi-platform projects in mere hours
+      - Designed and implemented a multi-modal LLM front-end including its API and adaptive widget architecture
+    areas:
+      - Frontend Architecture, Design and Implementation
+      - API Design and Implementation
+      - Rapid Prototype / POC Development
+      - POC to Full Product Planning
+    bulletpoints:
+      - position: Frontend
+        description: >-
+          **Svelte**/**Tailwind** and **WordPress**/**Bootstrap** development of **multi-platform** websites and products
+      - position: Tech
+        description: >-
+          **Component Library**, **Prototyping Platform** and **Targeted Utility Libraries** development
+      - position: API
+        description: >-
+          **Design**, **programming** and **security**
+    keywords: [Typescript, Svelte, Tailwind, Clerk, PNPM, Python, Flask, Docker, Nix, Vercel]
+
+  - position: Technical Team Lead
+    name: Contractbook
+    url: https://contractbook.com
+    startDate: 2022-05-02
+    endDate: 2022-12-30
+    location: remote
+    country: Denmark
+    text: >-
+      After helping to launch a redesign of user file management in a Fullstack position, I soon after took over as Technical Team Lead for one of six teams at the company.
+      As team lead, I implemented new team workflows, daily practices and documentation efforts that helped the team release 3 major product features in just two months, as well as transitioned the team from the lowest developer experience satisfaction scores of the six teams to one of the highest.
+    summary: >-
+      After starting in a Fullstack position, helping to launch a redesign of user file management, I took over as Technical Team Lead for one of six teams at the company.
+    highlights:
+      - Restructured workflows, daily practices and documentation, enabling the release of three new major features in two months
+      - Optimised the deployment pipeline, reducing the time to deploy by hours
+      - Transitioned my team from the lowest developer experience satisfaction scores in the company to one of the highest
+    areas:
+      - Team Processes and Workflows
+      - Developer Experience
+      - Pipeline optimisation
+      - Technical Planning
+    bulletpoints:
+      - position: Management
+        description: >-
+          Restructured team agreements, **workflows**, daily **routines** and **communication** to great effect
+      - position: DX
+        description: >-
+          Identified blockers and bottlenecks in **development processes** and **toolings** and developed **helpers** and **new processes** to overcome them
+    keywords: [Elixir, Ecto, Typescript, React, Redux, ProseMirror, Stitches, Smartling, PostgreSQL, Yarn, Docker, Github Actions, Google Cloud]
+
+  - position: Senior Software Engineer
+    name: Portchain
+    url: https://www.portchain.com
+    startDate: 2021-06-23
+    endDate: 2022-05-31
+    location: remote
+    country: Denmark 
+    text: >-
+      I worked with other Senior Software Engineers on the company’s main user-facing Next.js-based product.
+      Where the need would arise, I also took periodic ownership of other key parts and packages of the overall infrastructure.
+      One of my main focuses was modernising the ageing codebase and improving the general developer experience.
+    summary: >-
+      Working with other Senior Software Engineers on the company’s main user-facing Next.js-based product, I helped modernise the codebase and improve team cooperation.
+    highlights:
+      - Organised a sprawling codebase into distinct packages with proper documentation
+      - Updated the front-end code to use more modern React and CSS features and declarative markup
+      - Spearheaded general and functional programming documentation efforts and initiated developer brainstorm sessions on best practices
+    areas:
+      - Codebase Modernisation
+      - Developer Experience
+      - Functional Programming Guidelines
+      - Modernising Frontend Codebase
+    bulletpoints:
+      - position: Management
+        description: >-
+          Spearheaded best-practices and fp-ts **documentation** effort as well as code **snippet sharing** and workflow integration \\*
+      - position: Frontend
+        description: >-
+          Helped transition to **functional**, more modular **React components** and more **modern CSS** features (e.g. calc, flexbox, grid, etc.) and declarative markup \\*
+      - position: Isomorphic
+        description: >-
+          Implemented **FP**-style tracking with **type codecs** and helped clean-up of **io-ts** types and improving the general **DRY**-ness of code \\
+    keywords: [Typescript, fp-ts/io-ts, Node.js, Next.js, React, Redux, Styled Components, ElasticUI, PostgreSQL, Socket.IO, NPM , Docker, Heroku, Segment]
+
+  - position: Chief Technical Officer
+    name: TrainAway
+    url: https://trainaway.fit
+    startDate: 2017-06-01
+    endDate: 2021-01-31
+    location: remote
+    country: Denmark 
+    text: >-
+      After building the backend and helping orchestrate the front-end work, I joined TrainAway as their CTO. In this new role, I created and managed our dev-team and re-built the web and mobile clients in more manageable code.
+      As the company moved through business models, quick updates and restructuring of the set-up were common.
+    summary: >-
+      Apart from designing and building the back-end and infrastructure, I also oversaw hiring the company’s development team and managed them daily. I also implemented code-sharing between mobile and web developers possible across frameworks.
+    # I oversaw hiring the company’s development team and managed them daily. I also rewrote the front-end code to make code-sharing between mobile and web developers possible.
+    highlights:
+      - Trained several junior developers to mid levels where they could take over future development
+      - Set up the data warehouse pipeline with analytics and monitoring integration
+      - Created a shared base library, enabling shared code between React, React Native and mithril.js
+
+      - Designed and implemented the backend, infrastructure and API service, including the public documentation
+    areas:
+      - Team Management and Hiring
+      - Agile Process Implementation and Supervision
+      - API Architecture
+      - Analytics / Monitoring
+      - Data Warehousing
+    bulletpoints:
+      - position: API
+        description: >-
+          Design and updating of the **service API** as the company moved from a B2C to B2B provider
+      - position: Enterprise
+        description: >-
+          **Data warehouse** and **analytics** setup
+      - position: Frontend
+        description: >-
+          **Webapp** implementation and maintenance in cooperation with junior programmers
+      - position: Management
+        description: >-
+          **Code-review**, **managing** and **hiring** of junior programmers
+    # keywords: [Node.js, Restify, PostgreSQL, Redis, Swagger/OpenAPI, mithril.js, tachyons, React, Docker, NPM, Nginx, Socket.IO, AWS, Stripe, Segment, Snowflake, Matillion, Mailchimp]
+    keywords: [Node.js, Restify, PostgreSQL, Redis, Swagger/OpenAPI, mithril.js, tachyons, React, Angular, Docker, NPM, Nginx, Socket.IO, AWS, Stripe, Segment, Snowflake, Matillion, Mailchimp]
+
+  # - position: Technical Architect and Engineer
+  #   name: TrainAway
+  #   url: https://trainaway.fit
+  #   startDate: 2017-04-11
+  #   endDate: 2017-06-01
+  #   location: remote
+  #   country: Denmark
+  #   text: >-
+  #     I designed and built the back-end and infrastructure for the E-commerce start-up, TrainAway. After benchmarking several test implementations, we agreed on the best cost-to-performance version.
+  #     While developing the back-end, I also helped the outsourced front-end team build the web and mobile clients and set up continuous integration and deployment pipelines for the project.
+  #   summary: >-
+  #     After benchmarking several test implementations and agreeing on the best cost-to-performance version, I designed and built the back-end and infrastructure for the E-commerce start-up.
+  #   highlights:
+  #     # - Designed and implemented the API service, including the public documentation
+  #     - Architected and developed the back-end and infrastructure to handle the expected traffic within a restricted budget
+  #     - Assisted the outsourced front-end team with implementation and UX
+  #     - Set up continuous integration and deployment pipelines for the project
+  #   areas:
+  #     - Infrastructure Design and Implementation
+  #     - Database Architecture and Implementation
+  #     - Continous Integration and Deployment
+  #     - API Design and Implementation
+  #     - Orchestration of Frontend Development
+  #   bulletpoints:
+  #     - position: DevOps
+  #       description: >-
+  #         Complete service and **infrastructure design and implementation** on a start-up budget
+  #     - position: DevOps
+  #       description: >-
+  #         **CI/CD pipeline** setup and implementation
+  #     - position: API
+  #       description: >-
+  #         Design and implementation of the **service API**
+  #     - position: Frontend
+  #       description: >-
+  #         **Website** and **app** orchestration in cooperation with outsourcing teams
+  #   keywords: [Node.js, Restify, PostgreSQL, Swagger/OpenAPI, Angular, Docker, Nginx, AWS, Stripe, Mailchimp]
+
+  - position: Freelance
+    name: Pfizer Animal Health / Zoetis, Mingoville, AllCongress
+    startDate: 2012-10-01
+    endDate: 2017-04-01
+    location: remote
+    country: USA, Denmark, Greece
+    text: >-
+      Projects include a data-warehouse infrastructure design, implementation and maintenance; an analytics API and server; iPad utilities and presentation apps;
+      an optimised rebuild of an abandoned API server and front-end and a presentation website and payment system integration.
+    summary: >-
+      I worked on several contract projects in the pharmaceutical, educational and service industries. Most projects were designed from scratch, but a few updated or fixed older codebases.
+    highlights:
+      # - Rebuilt an abandoned API server and front-end to make it more maintainable and scalable
+      - Designed and implemented a data warehouse and analytics infrastructure to handle sensitive customer information
+      - Authored a minimal WebGL game engine specifically for interactive iOS presentations
+      - Optimised a map data and payment server to be hundreds of times faster
+    areas:
+      - Cloud and Server Infrastructure Design and Implementation
+      - Database Architecture and Implementation
+      - API Design and Implementation
+      - Server and Client-side Application Development
+      - Security and Encryption
+      - Analytics and Data Warehousing
+      - Mobile Application Development
+    bulletpoints:
+      - position: DevOps
+        description: >-
+          **Server** and **Cloud** architecture development
+      - position: API
+        description: >-
+          **Design**, **programming**, **setup**, **maintenance** and **security**
+      - position: Frontend
+        description: >-
+          **HTML5/CSS3/JavaScript** development of **multi-platform** solutions \\(public websites; intranet; Android/iPad apps)
+      - position: Interactive
+        description: >-
+          HTML5/**Canvas/WebGL** 2D game development
+    keywords: [Node.js, PHP, Express, Socket.IO, RabbitMQ/MQTT, Jade, CSS/LESS/SASS, Bootstrap/Foundation, Angular.js/Angular, Python, PostgreSQL, Docker, Nginx, Apache Cordova]
+
+  - position: Senior Frontend Developer
+    name: Anthill Agency
+    url: https://www.anthillagency.com
+    startDate: 2011-11-16
+    endDate: 2012-09-28
+    location: Denmark
+    text: >-
+      After taking over and modernising a legacy project, I started moving into building code and design frameworks to optimise the company’s output, including cross-platform dev-tools.
+      Being comfortable in Linux, I was also in charge of server set-ups and build processes.
+    summary: >-
+      I took over and modernised a legacy project and was in charge of internal frameworks, cross-platform dev-tools and design systems.
+    highlights:
+      - Improved cross-platform (web+mobile) development times significantly by creating a web layout framework with custom IE8 polyfills
+      - Automated build processes and introduced CI/CD to the company
+      - Integrated analytics and monitoring in legacy systems, eventually fixing long-standing bugs and slow-downs
+      # - Cooperated with the design department to build tooling that allowed designers to have more direct influence on the development process
+    areas:
+      - Frontend Development
+      - Frontend Framework Development
+      - Server Setup and Maintenance
+      - Analytics Development
+      - Mobile Application Development
+      - Design Systems and Tooling
+    bulletpoints:
+      - position: Frontend
+        description: >-
+          {HTML5/CSS3/JavaScript development of multi-platform solutions \\(public website; intranet; iPad apps)}
+      - position: DevOps
+        description: >-
+          **Server** installations and setups for marketing websites
+      - position: Analytics
+        description: >-
+          Development of complete **tracking**/monitoring/**analytics** solutions
+      - position: Mobile
+        description: >-
+          iPad **app development** and **design**
+      - position: Tech
+        description: >-
+          {**Web framework** and dev-platform development for **server** and **client-side** (deployment pipelines, build scripts, caching solutions, compression, CSS2-3 framework including grids, mobile-first, etc.)}
+    keywords: [Node.js, Socket.IO, MQTT, CSS/LESS/SASS, Bootstrap/Angular, Python, MySQL/PostgreSQL/MongoDB, Docker, Nginx, Apache Cordova, Objective-C, Ruby]
+
+projectsOff:
+  - name: Wine Desktop Integration
+    startDate: 2009-10-13
+    endDate: 2010-04-02
+    description: >-
+      I built the full desktop integration of Windows executables into the default Gnome desktop for Ubuntu 9.10\cite{karmicwine}.
+      The integration utilised Wine and custom PE executable parsers and is now distribution independent under the Vineyard moniker.
+    highlights:
+      - Was highlighted as one of the main reasons for companies to switch to Ubuntu on several online news-sites
+    keywords: [Python, NumPy, GTK, Gnome, XDG]
+    roles:
+      - Developer
+      - Project Planner
+      - Designer
+      - Graphics Artist
+    entity: Ubuntu
+    type: application
+    areas:
+      - Desktop Software Design and Development
+      - ABI Compatibility and Introspection
+      - Integration API Design and Development
+  - name: The Vineyard Project
+    startDate: 2009-04-30
+    summary: A set of utilities and Python libraries for interfacing with and managing Wine prefixes and proprietary Windows file types.
+    url: http://vineyardproject.org
+    roles:
+      - Project Lead
+  - name: LinReaper
+    startDate: 2008-09-30
+    summary: >-
+      Linux compatibility wrapping of the DAW program Reaper from Cockos Inc.
+      The focus of this project is a completely transparent integration of the Microsoft Windows compatibility framework Wine into the standard XDG/FreeDesktop.org based Linux desktop as well as a separate installation program and control panel.
+    highlights:
+      - LinReaper is currently in use in several professional sound studios around the world
+    url: https://github.com/Cybolic/LinReaper
+    roles:
+      - Project Lead
+  - name: CeeMedia Movie Catalog
+    startDate: 2005-02-28
+    endDate: 2009-07-31
+    summary: >-
+      A film catalogue and management program for Linux and to a lesser degree Windows. Can also play movie files.
+    highlights:
+      - CeeMedia is used for film showcasing at the "transmediale" film festival in Berlin
+    url: http://ceemedia.sosdg.org
+    roles:
+      - Project Lead
+  - name: GryPhon Linux CD-Player
+    startDate: 2001-12-31
+    endDate: 2009-07-31
+    summary: >-
+      One of the first GTK2 CD-players for Linux (and the first themeable one,
+      and still the only to support per CD themeing) and its CDLow library was the first
+      hardware-accessing Python library for playing CDs (it's also still in use in other
+      people's projects).
+    url: http://gryphon.sourceforge.net
+    roles:
+      - Project Lead
+
+references:
+  - name: Wojciech Zawistowski
+    description: VP of Engineering at Contractbook
+    reference: >-
+      Christian is an extremely experienced full-stack developer with broad interests, going back to the Amiga days.
+      He would be a great addition to the team no matter what's your tech stack (which was exactly the case at Contractbook and he adapted in no time).
+
+      He is also a great team lead. I especially appreciate Christian's methodical approach to improving team processes - he's one of the most organized and deliberate people I had the pleasure to work with.
+      He's also very good at making long-term improvements through a continuous series of small but impactful steps.
+  - name: Mikael Vincents Nielsen
+    description: Co-founder of TrainAway
+    reference: >-
+      Christian's work as CTO at TrainAway has been invaluable. He basically architected and built the entire infrastructure of our platform from scratch.
+      Christian was in charge of all back-end related development in his time at TrainAway and also the lead on most front-end development.
+
+      Aside from developing, Christian also spend time managing our development team, ranging from 3-8 people.
+      Every developer we have had as a part of the company really enjoyed working with Christian as their lead developer, drawing on his extensive experience across more or less all technical aspects.
+
+skills:
+  - name: Languages
+    keywords:
+      - JavaScript
+      - Typescript
+      - Python
+      - PHP
+      - CSS / LESS / SASS
+      - Pug / Jade / Go-template
+      - Bash
+
+  - name: Front-end (25+ years)
+    keywords:
+      - Svelte
+      - React
+      - Angular
+      - mithril.js
+      - Styled Components
+      - Tailwind.css
+      - tachyons
+      - Stitches
+      - Bootstrap
+      - Foundation
+      - ElasticUI
+      - ProseMirror
+      - Redis
+      - Redux
+      - Socket.io
+      - fp-ts / io-ts
+
+  - name: Back-end (20+ years)
+    keywords:
+      - Node.js
+      - Express
+      - Restify
+      - Next.js
+      - RabbitMQ / MQTT
+      - Swagger / OpenAPI
+
+  - name: Databases (20+ years)
+    keywords:
+      - PostgreSQL
+      - MySQL / MariaDB
+      - MongoDB
+
+  - name: DevOps (10+ years)
+    keywords:
+      - Docker
+      - Nix
+      - AWS
+      - Bitbucket Pipelines
+      - sourcehut builds
+      - Github Actions
+      - Google Cloud
+      - Vercel
+      - Heroku
+      - Dokku
+      - Nginx
+
+  - name: Tools
+    keywords:
+      - NPM / PNPM / Yarn
+      - Apache Cordova
+      - Clerk
+      - Segment
+      - Smartling
+      - Matillion
+      - Snowflake
+      - Stripe
+      - Adyen
+

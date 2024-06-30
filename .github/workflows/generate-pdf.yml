@@ -1,0 +1,37 @@
+name: Generate PDF from the YAML resume
+
+on:
+  push:
+    paths:
+      - '**.yml'
+      - '**.yaml'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Set up Nix
+      uses: cachix/install-nix-action@v18
+      with:
+        extra_nix_config: |
+          experimental-features = nix-command flakes
+
+    - name: Build PDF from YAML
+      run: |
+        nix build .#pdf
+        mkdir -p docs
+        cp result/cv.pdf docs/
+
+    - name: Commit and Push PDF to GitHub Pages
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        git config --global user.name 'github-actions'
+        git config --global user.email 'github-actions@github.com'
+        git add docs/cv.pdf
+        git commit -m "Update generated PDF"
+        git push
