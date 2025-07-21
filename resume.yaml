@@ -29,6 +29,20 @@ basics:
       url: https://bitbucket.org/Cybolic/
 
 work:
+  - position: Freelance
+    name: Space Cow Media, Undisclosed Startup
+    startDate: 2024-08-07
+    endDate: 2025-04-17
+    location: remote
+    country: USA
+    summary: >-
+      I worked on several projects: helping rewrite an aging Vue/Flask server in modern React/Python (including updating the payment system and helping with seamless migration to the rewrite), as well as building an LLM-assisted medical assistance tool to help doctors with patient records.
+    highlights:
+      - Ensured complete reproducability and stable dependency management by adding Nix-based development tooling and CI pipeline setup
+      - Added a testing framework and a full unit test suite to ensure a reliable switch from the existing codebase to the rewrite
+      - Guided a team of five junior developers with tooling, dev-setup and LLM communication, set up the CI/CD pipeline and orchestrated the deployment platform using Azure
+    keywords: [Node.js, Python, Flask, FastAPI, Svelte, React, Vue, CSS3, Material UI, Emotion, PostgreSQL, Azure, Docker, Nix]
+
   - position: Senior Software Engineer
     name: Enginable
     url: https://enginable.com
@@ -167,43 +181,43 @@ work:
     # keywords: [Node.js, Restify, PostgreSQL, Redis, Swagger/OpenAPI, mithril.js, tachyons, React, Docker, NPM, Nginx, Socket.IO, AWS, Stripe, Segment, Snowflake, Matillion, Mailchimp]
     keywords: [Node.js, Restify, PostgreSQL, Redis, Swagger/OpenAPI, mithril.js, tachyons, React, Angular, Docker, NPM, Nginx, Socket.IO, AWS, Stripe, Segment, Snowflake, Matillion, Mailchimp]
 
-  # - position: Technical Architect and Engineer
-  #   name: TrainAway
-  #   url: https://trainaway.fit
-  #   startDate: 2017-04-11
-  #   endDate: 2017-06-01
-  #   location: remote
-  #   country: Denmark
-  #   text: >-
-  #     I designed and built the back-end and infrastructure for the E-commerce start-up, TrainAway. After benchmarking several test implementations, we agreed on the best cost-to-performance version.
-  #     While developing the back-end, I also helped the outsourced front-end team build the web and mobile clients and set up continuous integration and deployment pipelines for the project.
-  #   summary: >-
-  #     After benchmarking several test implementations and agreeing on the best cost-to-performance version, I designed and built the back-end and infrastructure for the E-commerce start-up.
-  #   highlights:
-  #     # - Designed and implemented the API service, including the public documentation
-  #     - Architected and developed the back-end and infrastructure to handle the expected traffic within a restricted budget
-  #     - Assisted the outsourced front-end team with implementation and UX
-  #     - Set up continuous integration and deployment pipelines for the project
-  #   areas:
-  #     - Infrastructure Design and Implementation
-  #     - Database Architecture and Implementation
-  #     - Continous Integration and Deployment
-  #     - API Design and Implementation
-  #     - Orchestration of Frontend Development
-  #   bulletpoints:
-  #     - position: DevOps
-  #       description: >-
-  #         Complete service and **infrastructure design and implementation** on a start-up budget
-  #     - position: DevOps
-  #       description: >-
-  #         **CI/CD pipeline** setup and implementation
-  #     - position: API
-  #       description: >-
-  #         Design and implementation of the **service API**
-  #     - position: Frontend
-  #       description: >-
-  #         **Website** and **app** orchestration in cooperation with outsourcing teams
-  #   keywords: [Node.js, Restify, PostgreSQL, Swagger/OpenAPI, Angular, Docker, Nginx, AWS, Stripe, Mailchimp]
+  - position: Technical Architect and Engineer
+    name: TrainAway
+    url: https://trainaway.fit
+    startDate: 2017-04-11
+    endDate: 2017-06-01
+    location: remote
+    country: Denmark
+    text: >-
+      I designed and built the back-end and infrastructure for the E-commerce start-up, TrainAway. After benchmarking several test implementations, we agreed on the best cost-to-performance version.
+      While developing the back-end, I also helped the outsourced front-end team build the web and mobile clients and set up continuous integration and deployment pipelines for the project.
+    summary: >-
+      After benchmarking several test implementations and agreeing on the best cost-to-performance version, I designed and built the back-end and infrastructure for the E-commerce start-up.
+    highlights:
+      # - Designed and implemented the API service, including the public documentation
+      - Architected and developed the back-end and infrastructure to handle the expected traffic within a restricted budget
+      - Assisted the outsourced front-end team with implementation and UX
+      - Set up continuous integration and deployment pipelines for the project
+    areas:
+      - Infrastructure Design and Implementation
+      - Database Architecture and Implementation
+      - Continuous Integration and Deployment
+      - API Design and Implementation
+      - Orchestration of Frontend Development
+    bulletpoints:
+      - position: DevOps
+        description: >-
+          Complete service and **infrastructure design and implementation** on a start-up budget
+      - position: DevOps
+        description: >-
+          **CI/CD pipeline** setup and implementation
+      - position: API
+        description: >-
+          Design and implementation of the **service API**
+      - position: Frontend
+        description: >-
+          **Website** and **app** orchestration in cooperation with outsourcing teams
+    keywords: [Node.js, Restify, PostgreSQL, Swagger/OpenAPI, Angular, Docker, Nginx, AWS, Stripe, Mailchimp]
 
   - position: Freelance
     name: Pfizer Animal Health / Zoetis, Mingoville, AllCongress
@@ -285,7 +299,7 @@ work:
           {**Web framework** and dev-platform development for **server** and **client-side** (deployment pipelines, build scripts, caching solutions, compression, CSS2-3 framework including grids, mobile-first, etc.)}
     keywords: [Node.js, Socket.IO, MQTT, CSS/LESS/SASS, Bootstrap/Angular, Python, MySQL/PostgreSQL/MongoDB, Docker, Nginx, Apache Cordova, Objective-C, Ruby]
 
-projectsOff:
+projects:
   - name: Wine Desktop Integration
     startDate: 2009-10-13
     endDate: 2010-04-02
@@ -337,7 +351,7 @@ projectsOff:
     endDate: 2009-07-31
     summary: >-
       One of the first GTK2 CD-players for Linux (and the first themeable one,
-      and still the only to support per CD themeing) and its CDLow library was the first
+      and still the only to support per-CD theming) and its CDLow library was the first
       hardware-accessing Python library for playing CDs (it's also still in use in other
       people's projects).
     url: http://gryphon.sourceforge.net
