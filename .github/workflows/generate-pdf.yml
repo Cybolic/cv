@@ -25,9 +25,11 @@ jobs:
 
     - name: Build PDF from YAML
       run: |
-        nix build .#pdf
         mkdir -p docs
+        nix build .#pdf
         cp result/cv.pdf docs/
+        nix build .#pdfFull
+        cp result/cv.pdf docs/cv-full.pdf
 
     - name: Commit and Push PDF to GitHub Pages
       env:
@@ -36,5 +38,6 @@ jobs:
         git config --global user.name 'github-actions'
         git config --global user.email 'github-actions@github.com'
         git add docs/cv.pdf
+        git add docs/cv-full.pdf
         git commit -m "Update generated PDF"
         git push

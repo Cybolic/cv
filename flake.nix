@@ -12,11 +12,22 @@
       let
         pkgs = import nixpkgs { inherit system; };
         cvBuildPkgs = latex-cv-class.packages.${system};
+
+        resumeShortYaml = pkgs.runCommand "processed-resume.yaml" {
+          buildInputs = [ pkgs.yq ];
+        } ''
+          # Remove `projects` and my initial project based position at TrainAway (we don't need two positions for the same company)
+          yq 'del(.projects) | .work |= map(select(.startDate != "2017-04-11"))' ${./resume.yaml} > $out
+        '';
       in rec{
         packages = {
 
-          pdf = cvBuildPkgs.yamlToPdf {
+          pdfFull = cvBuildPkgs.yamlToPdf {
             inputYaml = ./resume.yaml;
+          };
+
+          pdf = cvBuildPkgs.yamlToPdf {
+            inputYaml = resumeShortYaml;
           };
 
           lint = pkgs.writeShellApplication {
