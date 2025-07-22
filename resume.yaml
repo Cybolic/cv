@@ -41,7 +41,7 @@ work:
       - Ensured complete reproducability and stable dependency management by adding Nix-based development tooling and CI pipeline setup
       - Added a testing framework and a full unit test suite to ensure a reliable switch from the existing codebase to the rewrite
       - Guided a team of five junior developers with tooling, dev-setup and LLM communication, set up the CI/CD pipeline and orchestrated the deployment platform using Azure
-    keywords: [Node.js, Python, Flask, FastAPI, Svelte, React, Vue, CSS3, Material UI, Emotion, PostgreSQL, Azure, Docker, Nix]
+    keywords: [Node.js, Python, Flask, FastAPI, React, Vue, CSS3, Material UI, Emotion, PayPal, PostgreSQL, Azure, Docker, Nix]
 
   - position: Senior Software Engineer
     name: Enginable
