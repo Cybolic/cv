@@ -14,10 +14,13 @@
         cvBuildPkgs = latex-cv-class.packages.${system};
 
         resumeShortYaml = pkgs.runCommand "processed-resume.yaml" {
-          buildInputs = [ pkgs.yq ];
+          buildInputs = [ pkgs.yq-go ];
         } ''
-          # Remove `projects` and my initial project based position at TrainAway (we don't need two positions for the same company)
-          yq 'del(.projects) | .work |= map(select(.startDate != "2017-04-11"))' ${./resume.yaml} > $out
+          # Remove:
+          # - `projects`
+          # _ my initial project based position at TrainAway (we don't need two positions for the same company)
+          # - my initial frontend position at Anthill
+          yq 'del(.projects) | .work |= map(select(.startDate != "2017-04-11" and .startDate != "2011-11-16"))' ${./resume.yaml} > $out
         '';
       in rec{
         packages = {

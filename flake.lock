@@ -44,11 +44,11 @@
         "yaml": "yaml"
       },
       "locked": {
-        "lastModified": 1719770483,
-        "narHash": "sha256-LGeaEhhBgUdIsjzhWAgsJr97PA+pY5cV12UYcmE3JL4=",
+        "lastModified": 1753142438,
+        "narHash": "sha256-BC3JonUL4qWCLDWzGm34IM5NNhlJGjrXWdkM7fxrfz4=",
         "owner": "Cybolic",
         "repo": "latex-cv-class",
-        "rev": "64ff28cf2c63d260f6a2721293b16263b378994d",
+        "rev": "da19c28a5cb481b28821be544a7f8fa2fa86d306",
         "type": "github"
       },
       "original": {
