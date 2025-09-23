@@ -37,7 +37,7 @@
             name = "lint";
             runtimeInputs = [ cvBuildPkgs.lint ];
             text = /* bash */ ''
-              lintYaml ./resume.yaml
+              lint-resume ./resume.yaml
             '';
           };
 

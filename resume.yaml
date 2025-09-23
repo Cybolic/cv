@@ -5,7 +5,7 @@ basics:
     Developing websites since 1995, I’ve used JavaScript since its inception and have worked on front-end, back-end, desktop, mobile, and the DevOps side of things.
     I tend to find improvements to the experience of both users and developers and ways of optimising processes within the code and my work environment. I’m passionate about open communication and cooperating as a team.
   personalSummary: >-
-    I’m originally from **Copenhagen, Denmark**, but I’m currently in **Greece**. Here, my **dockerised NAS** is slowly taking over my other computers, and I wish I had more **Raspberry PIs**.
+    I’m originally from **Copenhagen, Denmark**, but I’m currently in **Greece**. Here, **Nix** and my **dockerised NAS** is slowly taking over my other computers, and I wish I had more **Raspberry PIs**.
     When I’m not in front of my main computer, I feed my growing **film collection** (don’t get me started on trivia), fiddle with my good ol’ **Commodore Amiga** (also don’t get me started on trivia), make a bit of **music**, or plan **costumes** for the next Halloween.
   email: cds@cybolic.me
   url: https://cybolic.me
@@ -38,7 +38,7 @@ work:
     summary: >-
       I worked on several projects: helping rewrite an aging Vue/Flask server in modern React/Python (including updating the payment system and helping with seamless migration to the rewrite), as well as building an LLM-assisted medical assistance tool to help doctors with patient records.
     highlights:
-      - Ensured complete reproducability and stable dependency management by adding Nix-based development tooling and CI pipeline setup
+      - Ensured complete reproducibility and stable dependency management by adding Nix-based development tooling and CI pipeline setup
       - Added a testing framework and a full unit test suite to ensure a reliable switch from the existing codebase to the rewrite
       - Guided a team of five junior developers with tooling, dev-setup and LLM communication, set up the CI/CD pipeline and orchestrated the deployment platform using Azure
     keywords: [Node.js, Python, Flask, FastAPI, React, Vue, CSS3, Material UI, Emotion, PayPal, PostgreSQL, Azure, Docker, Nix]
@@ -84,10 +84,10 @@ work:
     location: remote
     country: Denmark
     text: >-
-      After helping to launch a redesign of user file management in a Fullstack position, I soon after took over as Technical Team Lead for one of six teams at the company.
+      After helping to launch a redesign of user file management in a full-stack position, I soon after took over as Technical Team Lead for one of six teams at the company.
       As team lead, I implemented new team workflows, daily practices and documentation efforts that helped the team release 3 major product features in just two months, as well as transitioned the team from the lowest developer experience satisfaction scores of the six teams to one of the highest.
     summary: >-
-      After starting in a Fullstack position, helping to launch a redesign of user file management, I took over as Technical Team Lead for one of six teams at the company.
+      After starting in a full-stack position, helping to launch a redesign of user file management, I took over as Technical Team Lead for one of six teams at the company.
     highlights:
       - Restructured workflows, daily practices and documentation, enabling the release of three new major features in two months
       - Optimised the deployment pipeline, reducing the time to deploy by hours
@@ -195,7 +195,7 @@ work:
       After benchmarking several test implementations and agreeing on the best cost-to-performance version, I designed and built the back-end and infrastructure for the E-commerce start-up.
     highlights:
       # - Designed and implemented the API service, including the public documentation
-      - Architected and developed the back-end and infrastructure to handle the expected traffic within a restricted budget
+      - Designed the architecture and developed the back-end and infrastructure to handle the expected traffic within a restricted budget
       - Assisted the outsourced front-end team with implementation and UX
       - Set up continuous integration and deployment pipelines for the project
     areas:
@@ -424,6 +424,8 @@ skills:
   - name: DevOps (10+ years)
     keywords:
       - Docker
+      - Podman
+      - LXC
       - Nix
       - AWS
       - Bitbucket Pipelines
@@ -434,6 +436,7 @@ skills:
       - Heroku
       - Dokku
       - Nginx
+      - Tailscale
 
   - name: Tools
     keywords:
