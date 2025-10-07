@@ -7,6 +7,12 @@ basics:
   personalSummary: >-
     I’m originally from **Copenhagen, Denmark**, but I’m currently in **Greece**. Here, **Nix** and my **dockerised NAS** is slowly taking over my other computers, and I wish I had more **Raspberry PIs**.
     When I’m not in front of my main computer, I feed my growing **film collection** (don’t get me started on trivia), fiddle with my good ol’ **Commodore Amiga** (also don’t get me started on trivia), make a bit of **music**, or plan **costumes** for the next Halloween.
+  ATSsummary:
+    - Full-stack Technical Lead with 10+ years leading engineering teams and 20+ years shipping web products across FE/BE/DevOps. Specialized in rapid legacy system modernization, reproducible tooling (Nix), and CI/CD automation that accelerates delivery.  
+    - Built LLM-enabled products including multi-modal interfaces (Generative UI) and medical assistance tools, architected resilient APIs and data pipelines, and established developer experience standards across distributed teams. 
+    - Consistently reduced deployment friction, improved codebase stability through testing and documentation, and mentored junior developers into productive mid-level contributors. 
+    - "Target roles: Senior/Staff Software Engineer, Technical Lead, Team Lead, or Engineering Manager (hands-on)."
+
   email: cds@cybolic.me
   url: https://cybolic.me
   location:
@@ -29,8 +35,10 @@ basics:
       url: https://bitbucket.org/Cybolic/
 
 work:
-  - position: Freelance
+  - position: Freelance / Contract
+    ATSposition: Senior Software Engineer / Team Lead (Contract)
     name: Space Cow Media, Undisclosed Startup
+    domain: Contract Work for Trading Platform and Medical Assistance AI Tooling
     startDate: 2024-08-07
     endDate: 2025-04-17
     location: remote
@@ -41,11 +49,21 @@ work:
       - Ensured complete reproducibility and stable dependency management by adding Nix-based development tooling and CI pipeline setup
       - Added a testing framework and a full unit test suite to ensure a reliable switch from the existing codebase to the rewrite
       - Guided a team of five junior developers with tooling, dev-setup and LLM communication, set up the CI/CD pipeline and orchestrated the deployment platform using Azure
+    ATSsummary: >-
+      Technical contractor for Magic card trading platform modernization, and medical AI clinic tooling, supervising 5-developer team across backend development, DevOps infrastructure, and payment system architecture.
+    ATShighlights:
+      - Redesigned payment system architecture using modern libraries and streamlined data structures, implementing stability controls and fallback mechanisms for card trading transactions
+      - Implemented Nix-based development environment and CI pipeline, establishing declarative reproducibility and improving deployment reliability across multi-month project timeline
+      - Built LLM-assisted medical records tool reducing post-patient administrative work by 10-15 minutes per visit for startup clinic operations
+      - Led technical supervision and mentoring of 5 junior developers while managing Azure CI/CD pipeline setup and deployment platform orchestration
+
     keywords: [Node.js, Python, Flask, FastAPI, React, Vue, CSS3, Material UI, Emotion, PayPal, PostgreSQL, Azure, Docker, Nix]
+
 
   - position: Senior Software Engineer
     name: Enginable
     url: https://enginable.com
+    domain: Agentic AI and LLM Services
     startDate: 2023-04-10
     endDate: 2024-06-21
     location: remote
@@ -53,7 +71,7 @@ work:
     text: >-
       Design and implementation of modular front-end interfaces, UI components as well as their infrastructure and backend implementation, with a focus on dynamic use, generation and interoperability.
     summary: >-
-      Being in charge of all front-end development, I designed and implemented modular interfaces, UI components as well as their backend implementations, with a focus on dynamic use, generation and interoperability.
+      Being in charge of all front-end development, I designed and implemented modular interfaces, UI components as well as their backend implementations, with a focus on dynamic use, generation and interoperability, ensuring a successful display of the company's technology, helping them partner with Gerent.
     highlights:
       - Implemented an extendable and customisable dialogue flow system for non-developers
       - Re-implemented a  multi-year, 250k+ line project in modern patterns and languages in 3 weeks
@@ -74,20 +92,37 @@ work:
       - position: API
         description: >-
           **Design**, **programming** and **security**
-    keywords: [Typescript, Svelte, Tailwind, Clerk, PNPM, Python, Flask, Docker, Nix, Vercel]
+    ATSsummary: >-
+      Served as sole frontend developer for early-stage agentic AI startup. I designed modular interfaces, backend APIs, and security infrastructure for LLM-powered enterprise products, enabling demos that secured a partnership with Gerent.
+    ATShighlights:
+      - Architected extendable dialogue flow system enabling 3 non-developers to manage agentic LLM rules, eliminating dependency on outsourced development company
+      - Rebuilt legacy 250k+ line codebase using modern Typescript/Svelte patterns in 3 weeks, reducing technical debt and enabling in-house rule/flow management
+      - Developed multi-modal LLM frontend and corresponding REST APIs with security implementation, supporting prototyping and product demonstrations through adaptive widget architecture
+      - Built rapid prototyping platform, including an in-house Generative UI system, reducing proof-of-concept development from weeks to hours, accelerating customer demonstrations and sales cycles
+
+    keywords: [Typescript, Svelte, Tailwind, Clerk, PNPM, Python, Flask, Docker, Nix, Vercel, OpenAI API, Claude API]
 
   - position: Technical Team Lead
     name: Contractbook
     url: https://contractbook.com
+    domain: Contract Management Platform
     startDate: 2022-05-02
     endDate: 2022-12-30
     location: remote
     country: Denmark
     text: >-
       After helping to launch a redesign of user file management in a full-stack position, I soon after took over as Technical Team Lead for one of six teams at the company.
-      As team lead, I implemented new team workflows, daily practices and documentation efforts that helped the team release 3 major product features in just two months, as well as transitioned the team from the lowest developer experience satisfaction scores of the six teams to one of the highest.
+      As team lead, I implemented new team workflows, daily practices and documentation efforts that enabled the team release 3 major product features in just two months, as well as transitioned the team from the lowest developer experience satisfaction scores of the six teams to one of the highest.
+    # This position ended as all customer-facing development teams were eliminating in a company restructuring.
     summary: >-
       After starting in a full-stack position, helping to launch a redesign of user file management, I took over as Technical Team Lead for one of six teams at the company.
+    ATSsummary: >-
+      After initially shipping a redesign of the user-facing file management of the contract management platform, I took over as Technical Team Lead for one of the two teams in charge of new customer-facing features.
+    ATShighlights:
+      - Led a cross-functional team of 6–7 engineers to deliver 3 major features in 2 months by restructuring rituals, documentation, and ownership (from planning to release).
+      - Optimized CI/CD pipeline to cut deploy times from >3h to <30m, increasing release frequency and reducing change failure rate.
+      - Improved developer experience scores from lowest to top-tier within the org by streamlining local dev environments, gathering developer feedback, improving coding standards, and mentoring.
+      - Coordinated with Product and Design to align scope and acceptance criteria, reducing rework and accelerating cycle time.
     highlights:
       - Restructured workflows, daily practices and documentation, enabling the release of three new major features in two months
       - Optimised the deployment pipeline, reducing the time to deploy by hours
@@ -109,6 +144,7 @@ work:
   - position: Senior Software Engineer
     name: Portchain
     url: https://www.portchain.com
+    domain: Planning and Scheduling Software for Shipping Terminals and Carriers
     startDate: 2021-06-23
     endDate: 2022-05-31
     location: remote
@@ -117,6 +153,7 @@ work:
       I worked with other Senior Software Engineers on the company’s main user-facing Next.js-based product.
       Where the need would arise, I also took periodic ownership of other key parts and packages of the overall infrastructure.
       One of my main focuses was modernising the ageing codebase and improving the general developer experience.
+    # This position ended due to company downsizing as a result of fierce competition in the market.
     summary: >-
       Working with other Senior Software Engineers on the company’s main user-facing Next.js-based product, I helped modernise the codebase and improve team cooperation.
     highlights:
@@ -134,30 +171,42 @@ work:
           Spearheaded best-practices and fp-ts **documentation** effort as well as code **snippet sharing** and workflow integration \\*
       - position: Frontend
         description: >-
-          Helped transition to **functional**, more modular **React components** and more **modern CSS** features (e.g. calc, flexbox, grid, etc.) and declarative markup \\*
+          Improved code-base quality by transitioning it to **functional**, more modular **React components** and more **modern CSS** features (e.g. calc, flexbox, grid, etc.) and declarative markup \\*
       - position: Isomorphic
         description: >-
-          Implemented **FP**-style tracking with **type codecs** and helped clean-up of **io-ts** types and improving the general **DRY**-ness of code \\
+          Implemented **FP**-style tracking with **type codecs**, cleaned up **io-ts** types and improved the general **DRY**-ness of code \\
+          summary: >-
+    ATSsummary: >-
+      Senior developer on 7-person engineering team building Next.js shipping logistics platform for vessel tracking, cargo planning, and docking management, focusing on codebase modernization and developer experience improvements.
+    ATShighlights:
+      - Restructured thousands of lines of repetitive code into <10 modular packages with defined scopes, eliminating copy-paste development patterns and reducing reported bugs
+      - Modernized 30-50 React components using functional programming principles and modern CSS features, improving application performance and developer efficiency
+      - Led documentation initiative and developer brainstorming sessions for engineering team, standardizing coding styles and implementing shared knowledge wiki
+      - Implemented FP-style tracking with type codecs and io-ts improvements, enhancing code maintainability and type safety across the platform
+
     keywords: [Typescript, fp-ts/io-ts, Node.js, Next.js, React, Redux, Styled Components, ElasticUI, PostgreSQL, Socket.IO, NPM , Docker, Heroku, Segment]
 
   - position: Chief Technical Officer
+    ATSposition: Technical Architect and Engineer / CTO
     name: TrainAway
     url: https://trainaway.fit
+    domain: Fitness Booking App and Service
     startDate: 2017-06-01
+    ATSstartDate: 2017-04-11
     endDate: 2021-01-31
     location: remote
     country: Denmark 
+    archiveURL: https://web.archive.org/web/20201025141647/https://www.trainaway.fit/about-us
     text: >-
       After building the backend and helping orchestrate the front-end work, I joined TrainAway as their CTO. In this new role, I created and managed our dev-team and re-built the web and mobile clients in more manageable code.
       As the company moved through business models, quick updates and restructuring of the set-up were common.
     summary: >-
       Apart from designing and building the back-end and infrastructure, I also oversaw hiring the company’s development team and managed them daily. I also implemented code-sharing between mobile and web developers possible across frameworks.
-    # I oversaw hiring the company’s development team and managed them daily. I also rewrote the front-end code to make code-sharing between mobile and web developers possible.
+      I oversaw hiring the company’s development team and managed them daily. I also rewrote the front-end code to make code-sharing between mobile and web developers possible.
     highlights:
-      - Trained several junior developers to mid levels where they could take over future development
+      - Trained 3-7 junior developers to mid levels where they could take over future development, including training one for succession in response to COVID-19-related restructuring
       - Set up the data warehouse pipeline with analytics and monitoring integration
       - Created a shared base library, enabling shared code between React, React Native and mithril.js
-
       - Designed and implemented the backend, infrastructure and API service, including the public documentation
     areas:
       - Team Management and Hiring
@@ -179,9 +228,20 @@ work:
         description: >-
           **Code-review**, **managing** and **hiring** of junior programmers
     # keywords: [Node.js, Restify, PostgreSQL, Redis, Swagger/OpenAPI, mithril.js, tachyons, React, Docker, NPM, Nginx, Socket.IO, AWS, Stripe, Segment, Snowflake, Matillion, Mailchimp]
-    keywords: [Node.js, Restify, PostgreSQL, Redis, Swagger/OpenAPI, mithril.js, tachyons, React, Angular, Docker, NPM, Nginx, Socket.IO, AWS, Stripe, Segment, Snowflake, Matillion, Mailchimp]
+    ATSsummary: >-
+      Built and led engineering for fitness booking platform serving tens of thousands of users across 1,500+ gyms including IHRSA partnership, scaling team from 2-7 developers and managing B2C to B2B pivot.
+    ATShighlights:
+      - Designed and implemented scalable backend and frontend architecture in 2 months supporting thousands of monthly users with capacity for hundreds of thousands without infrastructure upgrades
+      - Built and managed team of 3-7 junior developers over 3 years, training one for senior level for succession planning in response to COVID-19-related restructuring
+      - Led B2C to B2B pivot over several months, expanding customer base and integrating multi-country gym management systems
+      - Created shared code library enabling React Native and Mithril.js cross-platform development, reducing training time and accelerating delivery
+      - Established data warehouse pipeline with analytics integration supporting 1,500+ gym partnerships and user engagement tracking
+
+
+    keywords: [Node.js, Restify, PostgreSQL, Redis, Swagger/OpenAPI, mithril.js, tachyons, React, Angular, Docker, NPM, Nginx, Socket.IO, Ansible, AWS, Stripe, Segment, Snowflake, Matillion, Mailchimp]
 
   - position: Technical Architect and Engineer
+    ATSskip: true
     name: TrainAway
     url: https://trainaway.fit
     startDate: 2017-04-11
@@ -190,7 +250,7 @@ work:
     country: Denmark
     text: >-
       I designed and built the back-end and infrastructure for the E-commerce start-up, TrainAway. After benchmarking several test implementations, we agreed on the best cost-to-performance version.
-      While developing the back-end, I also helped the outsourced front-end team build the web and mobile clients and set up continuous integration and deployment pipelines for the project.
+      While developing the back-end, I also oversaw and worked with the outsourced front-end team to build the web and mobile clients, and I set up continuous integration and deployment pipelines for the project.
     summary: >-
       After benchmarking several test implementations and agreeing on the best cost-to-performance version, I designed and built the back-end and infrastructure for the E-commerce start-up.
     highlights:
@@ -220,7 +280,9 @@ work:
     keywords: [Node.js, Restify, PostgreSQL, Swagger/OpenAPI, Angular, Docker, Nginx, AWS, Stripe, Mailchimp]
 
   - position: Freelance
+    ATSposition: Software Engineer
     name: Pfizer Animal Health / Zoetis, Mingoville, AllCongress
+    domain: Freelance Engineering and Service Projects and Contracts 
     startDate: 2012-10-01
     endDate: 2017-04-01
     location: remote
@@ -256,11 +318,19 @@ work:
       - position: Interactive
         description: >-
           HTML5/**Canvas/WebGL** 2D game development
-    keywords: [Node.js, PHP, Express, Socket.IO, RabbitMQ/MQTT, Jade, CSS/LESS/SASS, Bootstrap/Foundation, Angular.js/Angular, Python, PostgreSQL, Docker, Nginx, Apache Cordova]
+    ATSsummary: >-
+      Contract developer for pharmaceutical, educational, and service companies ranging from enterprise to small businesses, delivering projects across data warehousing, API development, and mobile applications.
+    ATShighlights:
+      - Designed and implemented GDPR-compliant data warehouse infrastructure for enterprise pharmaceutical contract database management
+      - Optimized map data and payment server performance from 10+ seconds to milliseconds response time using self-hosted mapping solution
+      - Rebuilt abandoned API server and frontend within 2-3 week deadline for improved maintainability and scalability
+      - Developed minimal WebGL game engine for interactive iOS presentations used by pharmaceutical sales representatives
+    keywords: [Node.js, PHP, Express, Socket.IO, RabbitMQ/MQTT, Jade, CSS/LESS/SASS, Bootstrap/Foundation, Angular.js/Angular, Python, PostgreSQL, Docker, Nginx, Apache Cordova, Chef, Puppet]
 
   - position: Senior Frontend Developer
     name: Anthill Agency
     url: https://www.anthillagency.com
+    domain: Pharmaceutical Digital Marketing Agency
     startDate: 2011-11-16
     endDate: 2012-09-28
     location: Denmark
@@ -297,7 +367,15 @@ work:
       - position: Tech
         description: >-
           {**Web framework** and dev-platform development for **server** and **client-side** (deployment pipelines, build scripts, caching solutions, compression, CSS2-3 framework including grids, mobile-first, etc.)}
-    keywords: [Node.js, Socket.IO, MQTT, CSS/LESS/SASS, Bootstrap/Angular, Python, MySQL/PostgreSQL/MongoDB, Docker, Nginx, Apache Cordova, Objective-C, Ruby]
+    ATSsummary: >-
+      Senior developer on 6-person engineering team building websites, mobile apps, and interactive presentations for pharmaceutical clients, focusing on cross-platform frameworks and development process optimization.
+    ATShighlights:
+      - Created cross-platform layout framework with IE8 polyfills supporting web components and style scoping across IE8, Gecko, Chrome and Safari browsers as well as iOS Apache Cordova rendering
+      - Reduced deployment times from days to hours by implementing CI/CD pipelines with rollback functionality for safer deployments
+      - Built CSS tooling and layout framework enabling improved communication between 6 engineers and 3 designers with faster iteration cycles
+      - Rewrote legacy pharmaceutical website from IE8-only to cross-browser compatibility, adding analytics and monitoring to resolve performance bottlenecks
+      - Managed server installations and build processes for ~5 promotional marketing servers supporting pharmaceutical client campaigns
+    keywords: [Node.js, Socket.IO, MQTT, CSS, LESS, SASS, Bootstrap, Angular, Python, MySQL, PostgreSQL, MongoDB, Docker, Nginx, Apache Cordova, Objective-C, Ruby]
 
 projects:
   - name: Wine Desktop Integration
@@ -376,77 +454,185 @@ references:
       Aside from developing, Christian also spend time managing our development team, ranging from 3-8 people.
       Every developer we have had as a part of the company really enjoyed working with Christian as their lead developer, drawing on his extensive experience across more or less all technical aspects.
 
-skills:
+skillsMain:
   - name: Languages
     keywords:
       - JavaScript
       - Typescript
       - Python
-      - PHP
-      - CSS / LESS / SASS
-      - Pug / Jade / Go-template
-      - Bash
+      - SQL 
 
-  - name: Front-end (25+ years)
+  - name: Front-end
     keywords:
       - Svelte
       - React
-      - Angular
-      - mithril.js
+      - Next.js
+      - CSS / SASS / Tailwind
+      - Semantic HTML
+
+  - name: Back-end
+    keywords:
+      - Node.js (Express / Restify)
+      - REST 
+      - OpenAPI / Swagger
+
+  - name: DevOps / Platform
+    keywords:
+      - Nix
+      - Docker
+      - Bitbucket Pipelines
+      - Github Actions
+      - Vercel
+      - Tailscale
+
+  - name: Cloud / Data
+    keywords:
+      - PostgreSQL
+      - AWS
+      - Segment
+      - Matillion
+      - Snowflake
+
+  - name: Practices
+    keywords:
+      - Infrastructure as Code (IaC)
+      - Functional Programming (FP)
+      - CI/CD
+      - Developer Experience (DX)
+      - TDD / Code Review
+      - Mentoring / Team Leadership
+
+skills:
+  - name: Languages
+    keywords:
+      # - JavaScript
+      # - Typescript
+      # - Python
+      - PHP
+      - Lua
+      # - CSS / LESS / SASS
+      # - Pug / Jade / Go-template
+      - Bash
+
+  # - name: Front-end (25+ years)
+  - name: Front-end
+    keywords:
+      # - Svelte
+      # - React
+      # - Angular
+      # - mithril.js
       - Styled Components
-      - Tailwind.css
-      - tachyons
-      - Stitches
+      # - Tailwind.css
+      # - tachyons
+      # - Stitches
       - Bootstrap
-      - Foundation
-      - ElasticUI
+      # - Foundation
+      # - ElasticUI
       - ProseMirror
       - Redis
       - Redux
       - Socket.io
       - fp-ts / io-ts
 
-  - name: Back-end (20+ years)
+  # - name: Back-end (20+ years)
+  - name: Back-end
     keywords:
-      - Node.js
-      - Express
-      - Restify
-      - Next.js
+      # - Node.js
+      # - Express
+      # - Restify
+      # - Next.js
+      - FastAPI
+      - Flask
+      - GraphQL
       - RabbitMQ / MQTT
-      - Swagger / OpenAPI
+      # - Swagger / OpenAPI
 
-  - name: Databases (20+ years)
+  # - name: DevOps / Platform (20+ years)
+  - name: DevOps / Platform
     keywords:
-      - PostgreSQL
-      - MySQL / MariaDB
-      - MongoDB
-
-  - name: DevOps (10+ years)
-    keywords:
-      - Docker
+      # - Docker
       - Podman
       - LXC
-      - Nix
-      - AWS
-      - Bitbucket Pipelines
-      - sourcehut builds
-      - Github Actions
-      - Google Cloud
-      - Vercel
-      - Heroku
-      - Dokku
+      # - Nix
+      # - PostgreSQL
       - Nginx
-      - Tailscale
+      - Azure Pipelines
+      - sourcehut builds (CI/CD)
+      - Heroku
+      # - Vercel
+      # - Heroku
+      - Dokku
+      # - Tailscale
+
+  # - name: Cloud / Data (10+ years)
+  - name: Cloud / Data
+    keywords:
+      - MySQL / MariaDB
+      - MongoDB
+      # - AWS
+      # - Bitbucket Pipelines
+      # - sourcehut builds
+      # - Github Actions
+      - Google Cloud
+      - Azure
+      - Clerk
+      # - Segment
+      - Smartling
+
+  - name: Testing / Quality
+    keywords:
+      - Vitest / Jest
+      - Mocha / Chai
+      - Pytest / Python unittest
+      - React Testing Library
+      - Puppeteer
+      - Cypress
 
   - name: Tools
     keywords:
-      - NPM / PNPM / Yarn
-      - Apache Cordova
-      - Clerk
-      - Segment
-      - Smartling
-      - Matillion
-      - Snowflake
+      - npm / pnpm / Yarn
+      - uv / Poetry / pip
+      # - Apache Cordova
       - Stripe
       - Adyen
+
+  - name: AI/LLM
+    keywords:
+      - OpenAI API
+      - Anthropic API
+      - ollama
+      - TensorFlow
+      - RAG and guardrails
+
+  - name: Also Worked With
+    keywords:
+      - Angular
+      - Pug / Jade / Go-template
+      - tachyons
+      - Foundation
+      - Stitches
+      - ElasticUI
+      - Storybook
+      - mithril.js
+      - Apache Cordova
+      - Jasmine
+      - Playwright
+
+education:
+  - studyType: Self-directed Professional Development
+    courses:
+      - Node.js internal event-loop optimisation
+      - Interactivity and assistive technology in native HTML5
+  - studyType: Bachelor Degree
+    area: Audio Engineering
+    institution: Copenhagen Production School
+    # score:
+    courses:
+      - Audio Synthesis and DSP
+      - Studio Mixing and Mastering and Technician Proficiency
+  - studyType: Web-integrator
+    # area: Web-integar
+    institution: Technical School of Copenhagen
+    courses:
+      - Full-stack Development Proficiency
 
