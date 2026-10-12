@@ -74,10 +74,10 @@
 
               export CV_LANG=en
               ${typst-cv}/bin/typst-cv compile \
-                $out/"CV - Christian Dannie Storgaard ($(date +'%Y-%m-%d')).pdf"
+                $out/cv-christian-dannie-storgaard.pdf
               export CV_LANG=da
               ${typst-cv}/bin/typst-cv compile \
-                $out/"CV - Christian Dannie Storgaard ($(date +'%Y-%m-%d'))-da.pdf"
+                $out/cv-christian-dannie-storgaard-da.pdf
             '';
           };
         in {
