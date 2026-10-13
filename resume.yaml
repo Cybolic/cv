@@ -76,10 +76,10 @@ work:
     ATSsummary: >-
       Contractor for planning, implementing and maintaining secure cloud platforms, services and infrastructure for ML-training and deployment, employee management, and internal communication.
     ATShighlights:
-      - Architected entire infrastructure and security policies, with single-source-of-truth deployment, including for the employee onboarding program and internal communication channels
+      - Architected entire infrastructure and security policies, with single-source-of-truth deployment, including for the employee onboarding program and internal communication channels; including bespoke replacements for AWS services that would otherwise cost hundreds of dollars per month.
       - Engineered custom Terraform integrations for services without existing support, including life-cycle management, and user role and policy verifications
     ATShighlights.da:
-      - Jeg designede og opsatte firmaets fulde infrastruktor, sikkerheds-policies og onboarding-setup, med single-source-of-truth deployment for samme
+      - Jeg designede og opsatte firmaets fulde infrastruktor, sikkerheds-policies og onboarding-setup, med single-source-of-truth deployment for samme; inkl. skrædersyede erstatninger for AWS services der ellers ville koste hundrevis af dollars per måned
       - Udviklede nye integrations-moduler til Terraform for platforme uden eksisterende support, med både life-cycle-håndtering, bruger-roller og policy-verifikation
 
     keywords: [Terraform, AWS, Google Workspace, Docker, Nix, Node.js, Python, PHP, Tailscale, Wireguard ]
@@ -163,13 +163,15 @@ work:
       Served as sole front-end developer for early-stage agentic AI startup. I designed modular interfaces, back-end APIs, and security infrastructure for LLM-powered enterprise products, enabling demos that secured a partnership with Gerent.
     ATShighlights:
       # - Architected extendable dialogue flow system enabling 3 non-developers to manage agentic LLM rules, eliminating dependency on outsourced development company and removing 250k+ lines of technical debt
-      - Architected dialogue flow system letting 3 non-developers manage agentic LLM rules, eliminating dependency on external services, and removing 250k+ lines of technical debt
+      # #- Architected dialogue flow system letting 3 non-developers manage agentic LLM rules, eliminating dependency on external services, and removing 250k+ lines of technical debt
       # - Rebuilt legacy 250k+ line codebase using modern TypeScript / Svelte patterns in 3 weeks, reducing technical debt and enabling in-house rule / flow management
       # - Developed multi-modal LLM front-end and corresponding REST APIs with security implementation, supporting prototyping and product demonstrations through adaptive widget architecture
-      - Built multi-modal LLM front-end with REST APIs and security layer, enabling product demos and prototyping via an adaptive widget system
+      # # - Built multi-modal LLM front-end with REST APIs and security layer, enabling product demos and prototyping via an adaptive widget system
       # - Built rapid prototyping platform, including an in-house Generative UI system (similar to, but predating Vercel's v0) with MCP functionality (predating Anthropic's MCP), reducing proof-of-concept development from weeks to hours, accelerating customer demonstrations and sales cycles
-      - Built a Generative UI + MCP-style platform (predating Vercel's v0 and Anthropic's MCP), cutting PoC development from weeks to hours and accelerating sales cycles
+      # # - Built a Generative UI + MCP-style platform (predating Vercel's v0 and Anthropic's MCP), cutting PoC development from weeks to hours and accelerating sales cycles
       # - Built rapid prototyping platform, including an in-house Generative UI system, reducing proof-of-concept development from weeks to hours, accelerating customer demonstrations and sales cycles.
+      - Architected and developed a Generative UI + MCP-style platform that made it possible to develop Proof-of-Concept demos in just hours, from previously taking weeks (before Vercel's v0 and Anthropic's MCP were published).
+      - Developed a replacement for over 250 thousand lines of technical debt that worked as guardrails for an LLM, enabling 3 non-technical employees to visually design interaction flows for passenger handling at a major airport in the United States.
     ATShighlights.da:
       - Som ansvarlig for al frontend-kode i firmaet, udviklede jeg en Generativt UI og MCP-lignende platform der gjorde det muligt at udvikle Proof-of-Concept demonstrationer på blot timer, fra at tidligere at have taget uger (før Vercel's v0 og Anthropic's MCP blev offentliggjort).
       - Udviklede en erstatning for over 250 tusind linjers teknisk gæld, som arbejdede som guardrails for en LLM, og gjorde det muligt for 3 ikke-tekniske medarbejdere at visuelt designe interaktions-flow for passager-håndtering i en større lufthavn i USA.
@@ -863,6 +865,8 @@ education:
       - Interactivity and assistive technology in native HTML5
   - studyType: Mediaproduction (Web-integrator)
     studyType.da: Medieproduktion (Web-integrator)
+    completionType: Certified
+    completionType.da: Bestået
     startDate: 2011-04-26
     endDate: 2011-11-01
     date: 2011
@@ -874,13 +878,17 @@ education:
       - Full-stack Development Proficiency
   - studyType: Bachelor's Degree
     studyType.da: Bachelor
+    completionType: Graduated
+    completionType.da: Bestået
     startDate: 2000-08-01
     endDate: 2003-08-01
     date: 2003
-    area: Audio Engineering (program later transferred to the Royal Danish Academy of Music)
-    area.da: Sound Engineering / Tonmeister (før uddannelsen blev flyttet til DKDM)
+    area: Audio Engineering / Tonmeister
+    area.da: Sound Engineering / Tonmeister
     institution: Copenhagen Production School
     institution.da: Københavns Produktionsskole
+    institutionNote: (program later moved to the Royal Danish Academy of Music)
+    institutionNote.da: (før uddannelsen blev flyttet til DKDM)
     location: Copenhagen, Denmark
     location.da: København, Danmark
     courses:

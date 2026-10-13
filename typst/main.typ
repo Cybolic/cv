@@ -83,8 +83,9 @@
   #if not "institution" in entry { continue }
 
   #edu(
+    consistent: false,
     degree: { context {
-      let joiner = if text.lang == "da" {"i"} else {"in"}
+      let joiner = lang-pick("in", (da: "i",))
       if "area" in entry {
         [#lang-get(entry, "studyType") #joiner #lang-get(entry, "area")]
       } else {
@@ -92,8 +93,9 @@
       }
     } },
     institution: lang-get(entry, "institution"),
+    institutionNote: lang-get(entry, "institutionNote"),
     location: lang-get(entry, "location", default: ""),
-    dates: [#entry.date],
+    dates: [#lang-get(entry, "completionType") #entry.date],
   )
   // #list(..entry.courses)
 ]

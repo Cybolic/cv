@@ -51,9 +51,9 @@
     costs: (hyphenation: 1000%),
   )
 
-  // Recommended margins
+  // Recommended margins (it should actually be 1.25cm, but we're pressed on space)
   set page(
-    margin: (if paper == "a4" {1.25cm} else {0.5in}),
+    margin: (if paper == "a4" {1.2cm} else {0.5in}),
     paper: paper,
   )
 
@@ -208,6 +208,7 @@
 // Section components below
 #let edu(
   institution: "",
+  institutionNote: "",
   dates: "",
   degree: "",
   gpa: "",
@@ -218,7 +219,7 @@
   if consistent {
     // edu-constant style (dates top-right, location bottom-right)
     generic-two-by-two(
-      top-left: strong(institution),
+      top-left: [#strong(institution)#{if institutionNote != "" [ #institutionNote]}],
       top-right: dates,
       bottom-left: emph(degree),
       bottom-right: emph(location),
@@ -226,7 +227,7 @@
   } else {
     // original edu style (location top-right, dates bottom-right)
     generic-two-by-two(
-      top-left: strong(institution),
+      top-left: [#strong(institution)#{if institutionNote != "" [ #institutionNote]}],
       top-right: location,
       bottom-left: emph(degree),
       bottom-right: emph(dates),
