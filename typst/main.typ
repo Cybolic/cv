@@ -26,12 +26,12 @@
   lang: language,
 )
 
-== #context { if text.lang == "da" [Om mig] else [Professional Summary] }
+== #lang-pick("Professional Summary", (da: "Om mig",))
 #block[#lang-get(data.basics, "ATSsummary")]
-/ #context { if text.lang == "da" [Vanlige stakke] else [Common stacks] }: #with-fullstop(data.basics.ATScommonstacks.join(", "))
+/ #lang-pick("Common stacks", (da: "Vanlige stakke",)): #with-fullstop(keyword-list(data.basics.ATScommonstacks))
 
 
-== #context { if text.lang == "da" [Kompetencer] else [Skills] }
+== #lang-pick("Skills", (da: "Kompetencer",))
 #for skill in data.skillsMain {
   let years = if "startYear" in skill {
     str(datetime.today().year() - skill.startYear)
@@ -50,7 +50,7 @@
 }
 
 
-== #context { if text.lang == "da" [Joberfaring] else [Work Experience] }
+== #lang-pick("Work Experience", (da: "Joberfaring",))
 
 #for entry in data.work {
   if entry.at("ATSskip", default: false) { continue }
@@ -60,7 +60,7 @@
 }
 
 
-== #context { if text.lang == "da" [Open Source projekter] else [Open Source Projects] }
+== #lang-pick("Open Source Projects", (da: "Open Source projekter",))
 
 #for entry in data.ATSprojects [
   / #{
@@ -77,7 +77,7 @@
 ]
 
 
-== #context { if text.lang == "da" [Uddannelse] else [Education] }
+== #lang-pick("Education", (da: "Uddannelse",))
 
 #for entry in data.education [
   #if not "institution" in entry { continue }

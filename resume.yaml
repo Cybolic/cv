@@ -133,7 +133,7 @@ work:
     endDate: 2024-06-21
     location: remote
     location.da: distancearbejde
-    # This position ended as the company was successfully purchased by Gerent to become their internal SaaS-provider thus, no-longer needing any frontend or visual work
+    # This position ended as the company was successfully purchased by Gerent to become their internal SaaS-provider, thus no-longer needing any frontend or visual work
     country: USA
     text: >-
       Design and implementation of modular front-end interfaces, UI components as well as their infrastructure and back-end implementation, with a focus on dynamic use, generation and interoperability.

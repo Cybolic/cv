@@ -2,28 +2,9 @@
 // to try and make the output more readable by ATS software (my main issue with LaTeX)
 
 // #import "@preview/scienceicons:0.1.0": orcid-icon
+#import "lang-support.typ": *
+#import "utils.typ": *
 
-#let lang-get-in-context(obj, key, default: none) = {
-  let lang = text.lang
-  if lang != "en" {
-    obj.at(key + "." + lang, default: obj.at(key, default: default))
-  } else {
-    obj.at(key, default: default)
-  }
-}
-#let lang-get(obj, key, default: none) = context {
-  lang-get-in-context(obj, key, default: default)
-}
-
-#let lang-date-display(date, format) = context {
-  let lang = text.lang
-  let output = date.display(format)
-  if lang == "da" {
-    output.replace("May", "Maj").replace("Oct", "Okt")
-  } else {
-    output
-  }
-}
 
 #let resume(
   author: "",
@@ -220,19 +201,8 @@
   start-date + " " + $dash.em$ + " " + end-date
 }
 
-#let isodate-to-datetime(date-string) = {
-  datetime(
-    year: int(date-string.split("-").at(0)),
-    month: int(date-string.split("-").at(1)),
-    day: int(date-string.split("-").at(2)),
-  )
-}
-
-// Ensure a full-stop at the end of the content
-#let with-fullstop(string) = {
-  // We could support `content`/`body` like this, but `repr` is only for debugging
-  // [#body#{if not repr(body).ends-with(".") [.]}]
-  [#string#{if not string.ends-with(".") [.]}]
+#let keyword-list(keywords) = {
+  keywords.map((k) => [#k<keyword>]).join(", ")
 }
 
 // Section components below
@@ -324,7 +294,7 @@
 
     if text.lang == "da" [Tekn.] else [Tech]
   }
-  [: #entry.at("ATSkeywords", default: entry.keywords).map((k) => [#k<keyword>]).join(", ")]
+  [: #keyword-list(entry.at("ATSkeywords", default: entry.keywords))]
   linebreak()
 }
 
