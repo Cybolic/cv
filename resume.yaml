@@ -442,9 +442,12 @@ work:
     ATSsummary: >-
       Contract developer for pharmaceutical, educational, and service companies ranging from enterprise to small businesses, delivering projects across data warehousing, API development, and mobile applications.
     ATShighlights:
-      - Designed and implemented GDPR-compliant data warehouse infrastructure for enterprise pharmaceutical contract database management
+      # The contract management platform for Zoetis North America
+      - Designed and implemented secure data warehouse infrastructure for enterprise pharmaceutical contract database management
+      # The AllCongress medical congress booking platform
       - Optimized map data and payment server performance from 10+ seconds to milliseconds response time using self-hosted mapping solution
       - Rebuilt abandoned API server and front-end within 2-3 week deadline for improved maintainability and scalability
+      # The Roche Interactive Cost Calculator "game"
       - Developed minimal WebGL game engine for interactive iOS presentations used by pharmaceutical sales representatives
     keywords: [Node.js, PHP, Express, Socket.io, RabbitMQ / MQTT, Jade, CSS / LESS / SASS, Bootstrap / Foundation, Angular.js / Angular, Python, PostgreSQL, Docker, Nginx, Apache Cordova, Chef, Puppet]
 
