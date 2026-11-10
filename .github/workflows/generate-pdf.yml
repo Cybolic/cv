@@ -5,6 +5,7 @@ on:
     paths:
       - '**.yml'
       - '**.yaml'
+      - '**.typ'
 
 permissions:
   contents: write

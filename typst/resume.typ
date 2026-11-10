@@ -120,8 +120,7 @@
   ]
 
 
-  // Level 1 Heading
-  [= #(author)]
+  [= #author]
 
   // Personal Info Helper
   let contact-item(value, prefix: "", link-type: "") = {
@@ -193,12 +192,12 @@
   ]
 }
 
-// Cannot just use normal --- ligature because ligatures are disabled for good reasons
+// Cannot just use normal `--` ligature because ligatures are disabled for good reasons
 #let dates-helper(
   start-date: "",
   end-date: "",
 ) = {
-  start-date + " " + $dash.em$ + " " + end-date
+  start-date + " " + sym.dash.en + " " + end-date
 }
 
 #let keyword-list(keywords) = {
@@ -254,7 +253,7 @@
   ]
 }
 
-#let work-from-entry(entry) = {
+#let work-from-entry(entry) = context {
 
   let startDate = lang-date-display(
     isodate-to-datetime(entry.at("ATSstartDate", default: entry.startDate)),
@@ -275,26 +274,22 @@
   }
 
   work(
-    // title: entry.at("ATSposition", default: entry.position),
-    // company: entry.name,
-    title: lang-get(entry, "ATSposition", default: lang-get(entry, "position")),
-    company: lang-get(entry, "name"),
+    title: lang-get-in-context(entry, "ATSposition", default: lang-get-in-context(entry, "position")),
+    company: lang-get-in-context(entry, "name"),
     dates: dates-helper(
       start-date: startDate,
       end-date: endDate,
     ),
     location: [
-      #{if "country" in entry [#lang-get(entry, "country"), ]}#lang-get(entry, "location")
+      #{if "country" in entry [#lang-get-in-context(entry, "country"), ]}#lang-get-in-context(entry, "location")
     ],
-    domain: lang-get(entry, "domain"),
+    domain: lang-get-in-context(entry, "domain"),
   )
   // list(..entry.ATShighlights.map(with-fullstop))
-  context {
     let hls = lang-get-in-context(entry, "ATShighlights")
     list(..hls.map(with-fullstop))
 
     if text.lang == "da" [Tekn.] else [Tech]
-  }
   [: #keyword-list(entry.at("ATSkeywords", default: entry.keywords))]
   linebreak()
 }

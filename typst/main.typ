@@ -26,12 +26,18 @@
   lang: language,
 )
 
-== #lang-pick("Professional Summary", (da: "Om mig",))
+#context [
+  == #lang-pick-in-context("Professional Summary", (da: "Om mig",))
+]
+
 #block[#lang-get(data.basics, "ATSsummary")]
 / #lang-pick("Common stacks", (da: "Vanlige stakke",)): #with-fullstop(keyword-list(data.basics.ATScommonstacks))
 
 
-== #lang-pick("Skills", (da: "Kompetencer",))
+#context [
+  == #lang-pick-in-context("Skills", (da: "Kompetencer",))
+]
+
 #for skill in data.skillsMain {
   let years = if "startYear" in skill {
     str(datetime.today().year() - skill.startYear)
@@ -50,7 +56,9 @@
 }
 
 
-== #lang-pick("Work Experience", (da: "Joberfaring",))
+#context [
+  == #lang-pick-in-context("Work Experience", (da: "Joberfaring",))
+]
 
 #for entry in data.work {
   if entry.at("ATSskip", default: false) { continue }
@@ -60,7 +68,9 @@
 }
 
 
-== #lang-pick("Open Source Projects", (da: "Open Source projekter",))
+#context [
+  == #lang-pick-in-context("Open Source Projects", (da: "Open Source projekter",))
+]
 
 #for entry in data.ATSprojects [
   / #{
@@ -77,7 +87,9 @@
 ]
 
 
-== #lang-pick("Education", (da: "Uddannelse",))
+#context [
+  == #lang-pick-in-context("Education", (da: "Uddannelse",))
+]
 
 #for entry in data.education [
   #if not "institution" in entry { continue }

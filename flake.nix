@@ -48,6 +48,7 @@
                 --root ./ \
                 --creation-timestamp="$(date '+%s')" \
                 --font-path ${fonts} \
+                --pdf-standard ua-1 \
                 --input "yaml-file=/$YAML_FILE" \
                 --input "language=$LANGUAGE" \
                 typst/main.typ \
@@ -99,6 +100,7 @@
             packages.${system}.watch
             pkgs.typst
             pkgs.yq
+            pkgs.verapdf
           ];
         };
       });

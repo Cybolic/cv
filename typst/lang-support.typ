@@ -10,13 +10,16 @@
   lang-get-in-context(obj, key, default: default)
 }
 
-#let lang-pick(default, options) = context {
+#let lang-pick-in-context(default, options) = {
   let lang = text.lang
   if lang == "en" {
     default
   } else {
     options.at(lang, default: default)
   }
+}
+#let lang-pick(default, options) = context {
+  lang-pick-in-context(default, options)
 }
 
 #let lang-date-display(date, format) = context {
